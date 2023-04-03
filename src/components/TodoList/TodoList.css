@@ -1,0 +1,41 @@
+.todo-list-item {
+  background-color: #414040;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 5px rgb(43, 42, 42);
+}
+
+.todo-list-item h3 {
+  font-size: 25px;
+  color: rgb(4, 196, 106);
+  font-weight: bold;
+}
+
+.todo-list-item p {
+  font-size: 14px;
+  color: rgb(161, 161, 161);
+  margin-top: 8px;
+}
+
+.icon {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: red;
+}
+
+.check-icon {
+  font-size: 25px;
+  margin-left: 10px;
+  color: var(--clr-primary-color);
+  cursor: pointer;
+}
+
+.check-icon:hover {
+  color: var(--clr-primary-color);
+}

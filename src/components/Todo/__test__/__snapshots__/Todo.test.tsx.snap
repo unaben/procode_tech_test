@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo component should renders correctly 1`] = `
+<div>
+  <div
+    class="todo-wrapper"
+  >
+    <form
+      class="todo-input"
+    >
+      <div
+        class="todo-input-item"
+      >
+        <label>
+          Title
+        </label>
+        <input
+          id="title"
+          name="title"
+          placeholder="Enter todo title..."
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="todo-input-item"
+      >
+        <label
+          class="description"
+        >
+          Description
+        </label>
+        <input
+          id="description"
+          name="description"
+          placeholder="Enter description...."
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="todo-input-item"
+      >
+        <button
+          class="primary-btn"
+          type="submit"
+        >
+          Add
+        </button>
+      </div>
+    </form>
+    <div
+      class="todo-content"
+    >
+      <div
+        class="btn-area"
+      >
+        <button
+          class="secondary-btn active"
+        >
+          Todo
+        </button>
+        <button
+          class="secondary-btn false"
+        >
+          Completed
+        </button>
+      </div>
+      <p>
+        Total Todos
+        :
+         
+        0
+      </p>
+      <form
+        class="todo-input-item"
+      >
+        <input
+          id="search-term"
+          name="searchTerm"
+          placeholder="Search todos...."
+          type="text"
+          value=""
+        />
+      </form>
+    </div>
+    <div
+      class="todo-list"
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;

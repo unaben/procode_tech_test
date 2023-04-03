@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchTodo component should renders correctly 1`] = `
+<div>
+  <form
+    class="todo-input-item"
+  >
+    <input
+      id="search-term"
+      name="searchTerm"
+      placeholder="Search todos...."
+      type="text"
+      value=""
+    />
+  </form>
+</div>
+`;

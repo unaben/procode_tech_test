@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInput component should renders correctly 1`] = `
+<div>
+  <form
+    class="todo-input"
+  >
+    <div
+      class="todo-input-item"
+    >
+      <label>
+        Title
+      </label>
+      <input
+        id="title"
+        name="title"
+        placeholder="Enter todo title..."
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="todo-input-item"
+    >
+      <label
+        class="description"
+      >
+        Description
+      </label>
+      <input
+        id="description"
+        name="description"
+        placeholder="Enter description...."
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="todo-input-item"
+    >
+      <button
+        class="primary-btn"
+        type="submit"
+      >
+        Add
+      </button>
+    </div>
+  </form>
+</div>
+`;

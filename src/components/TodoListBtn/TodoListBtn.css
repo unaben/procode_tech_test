@@ -1,0 +1,22 @@
+.btn-area {
+  margin-bottom: 1rem;
+}
+
+.secondary-btn {
+  background: rgb(71, 71, 71);
+  color: white;
+  border: none;
+  margin-top: 1.6rem;
+  padding: 0.7em;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--clr-primary-bg);
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}

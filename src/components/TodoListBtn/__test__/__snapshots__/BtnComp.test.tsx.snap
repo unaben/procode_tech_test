@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Btn component should renders correctly 1`] = `
+<div>
+  <div
+    class="btn-area"
+  >
+    <button
+      class="secondary-btn active"
+    >
+      Todo
+    </button>
+    <button
+      class="secondary-btn false"
+    >
+      Completed
+    </button>
+  </div>
+</div>
+`;
