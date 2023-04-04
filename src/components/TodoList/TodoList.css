@@ -39,3 +39,9 @@
 .check-icon:hover {
   color: var(--clr-primary-color);
 }
+
+@media only screen and (max-width: 768px) {
+  .todo-list-item {
+    margin-top: 0.8rem;
+  }
+}

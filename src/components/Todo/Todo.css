@@ -19,4 +19,10 @@
     max-width: 80%;
     padding-left: 1em;
   }
+  .todo-content {
+    flex-direction: column;
+  }
+  .todo-content P {
+    margin-bottom: 0.5rem;
+  }
 }
