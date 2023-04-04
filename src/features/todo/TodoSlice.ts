@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../../app/store";
 import { ICompletedTodo } from "../../models/TodoModel";
 
@@ -14,10 +14,10 @@ export const todoSlice = createSlice({
   name: "todos",
   initialState,
   reducers: {
-    addTodo: (state, action) => {
+    addTodo: (state, action: PayloadAction<ICompletedTodo>) => {
       state.todos.push(action.payload);
     },
-    deleteTodo: (state, action) => {
+    deleteTodo: (state, action: PayloadAction<number>) => {
       state.todos = state.todos.filter(
         (todo, index) => index !== action.payload
       );
