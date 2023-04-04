@@ -58,7 +58,7 @@ exports[`Todo component should renders correctly 1`] = `
         <button
           class="secondary-btn active"
         >
-          Todo
+          Pending
         </button>
         <button
           class="secondary-btn false"
@@ -67,9 +67,8 @@ exports[`Todo component should renders correctly 1`] = `
         </button>
       </div>
       <p>
-        Total Todos
-        :
-         
+        Pending Todos
+        : 
         0
       </p>
       <form

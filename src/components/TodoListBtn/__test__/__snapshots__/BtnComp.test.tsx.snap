@@ -8,7 +8,7 @@ exports[`Btn component should renders correctly 1`] = `
     <button
       class="secondary-btn active"
     >
-      Todo
+      Pending
     </button>
     <button
       class="secondary-btn false"

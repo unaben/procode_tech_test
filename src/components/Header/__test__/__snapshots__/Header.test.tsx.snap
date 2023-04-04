@@ -3,7 +3,7 @@
 exports[`Header component should render correctly 1`] = `
 <div>
   <h1>
-    Basic Todo App
+    TODOs
   </h1>
 </div>
 `;

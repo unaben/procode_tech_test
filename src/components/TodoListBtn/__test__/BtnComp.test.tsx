@@ -32,7 +32,7 @@ describe("Btn component", () => {
       </Provider>
     );
     const btnEl = screen.getByRole("button", {
-      name: /Todo/i,
+      name: /Pending/i,
     });
     await userEvent.click(btnEl);
     expect(mockFunction).toHaveBeenCalledTimes(1);

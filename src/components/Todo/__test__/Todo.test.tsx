@@ -19,7 +19,7 @@ describe("Todo component", () => {
         <Todo />
       </Provider>
     );
-    const paragraphText = screen.getByText(/Total Todos/i);
+    const paragraphText = screen.getByText(/Pending Todos/i);
     expect(paragraphText).toBeInTheDocument();
   });
 });

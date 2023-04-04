@@ -21,6 +21,6 @@ describe("Header component", () => {
     );
     const headingEl = screen.getByRole("heading", { level: 1 });
     expect(headingEl).toBeInTheDocument();
-    expect(headingEl).toHaveTextContent(/Basic Todo App/i);
+    expect(headingEl).toHaveTextContent(/TODOs/i);
   });
 });
