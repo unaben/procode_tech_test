@@ -2,7 +2,7 @@ import { useState } from "react";
 import FormInput from "../FormInput/FormInput";
 import TodoListBtn from "../TodoListBtn/TodoListBtn";
 import TodoList from "../TodoList/TodoList";
-import { useLocalStorage } from "../hook/useLocalStorage";
+import { useLocalStorage } from "../../hook/useLocalStorage";
 import { ICompletedTodo } from "../../models/TodoModel";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { deleteTodo, getAllTodos } from "../../features/todo/TodoSlice";
@@ -10,7 +10,7 @@ import { executeDelete, generateTime } from "../../helper/helper";
 import SearchTodo from "../SearchTodo/SearchTodo";
 import "./Todo.css";
 import { message } from "../../translation/ENT";
-import useSearch from "../hook/useSearch";
+import useSearch from "../../hook/useSearch";
 
 const Todo = () => {
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -19,8 +19,10 @@ const Todo = () => {
     "completedTodos",
     []
   );
+
   const allTodos = useAppSelector(getAllTodos);
   const { searchData } = useSearch(allTodos, searchTerm);
+
   const dispatch = useAppDispatch();
 
   const handleDelete = (id: number) => {
@@ -38,6 +40,7 @@ const Todo = () => {
     setCompleteTodos([...completeTodos, filteredItem]);
     handleDelete(id);
   };
+
   return (
     <div className="todo-wrapper">
       <FormInput setToggleTodoBtn={setToggleTodoBtn} />
