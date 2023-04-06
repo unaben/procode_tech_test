@@ -8,6 +8,8 @@ export const message = {
   add: "Add",
   completedOn: "Completed on",
   description: "Description",
-  totalPending: "Pending Todos",
-  totalCompleted: "Completed Todos",
+  pendingTodos: "Pending Todos",
+  completedTodos: "Completed Todos",
+  pendingTodo: "Pending Todo",
+  completedTodo: "Completed Todo",
 } as ILocalization; ;

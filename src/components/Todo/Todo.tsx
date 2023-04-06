@@ -51,8 +51,12 @@ const Todo = () => {
         />
         <p>
           {toggleTodoBtn === false
-            ? message.totalPending
-            : message.totalCompleted}
+            ? allTodos.length <= 1
+              ? message.pendingTodo
+              : message.pendingTodos
+            : completeTodos.length <= 1
+            ? message.completedTodo
+            : message.completedTodos}
           : {toggleTodoBtn === false ? allTodos.length : completeTodos.length}
         </p>
         <SearchTodo searchTerm={searchTerm} setSearchTerm={setSearchTerm} />

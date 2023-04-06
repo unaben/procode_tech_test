@@ -6,6 +6,8 @@ export type ILocalization = {
   add: string;
   completedOn: string;
   description: string;
-  totalPending: string;
-  totalCompleted: string;
+  pendingTodo: string;
+  completedTodo: string;
+  pendingTodos: string;
+  completedTodos: string;
 };
