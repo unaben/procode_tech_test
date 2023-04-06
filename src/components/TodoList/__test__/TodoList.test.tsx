@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import { store } from "../../../app/store";
 import { ICompletedTodo } from "../../../models/TodoModel";
 
-describe("Todo component", () => {
+describe("TodoList component", () => {
   it("should renders check icon correctly", () => {
     const todos = [
       {

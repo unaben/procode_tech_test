@@ -67,7 +67,7 @@ exports[`Todo component should renders correctly 1`] = `
         </button>
       </div>
       <p>
-        Pending Todos
+        Pending Todo
         : 
         0
       </p>

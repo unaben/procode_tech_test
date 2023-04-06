@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Btn component should renders correctly 1`] = `
+exports[`TodoListBtn component should renders correctly 1`] = `
 <div>
   <div
     class="btn-area"

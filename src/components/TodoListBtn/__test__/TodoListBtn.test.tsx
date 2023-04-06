@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import { store } from "../../../app/store";
 import userEvent from "@testing-library/user-event";
 
-describe("Btn component", () => {
+describe("TodoListBtn component", () => {
   it("should renders correctly", () => {
     const { container } = render(
       <Provider store={store}>
