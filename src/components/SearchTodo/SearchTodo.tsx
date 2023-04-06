@@ -14,7 +14,7 @@ const SearchTodo: FC<IFilteredTodoProps> = ({ searchTerm, setSearchTerm }) => {
         type="text"
         name="searchTerm"
         id="search-term"
-        placeholder="Search todos...."
+        placeholder="Search pending todos...."
       />
     </form>
   );
