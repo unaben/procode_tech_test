@@ -1,7 +1,7 @@
 import { ILocalization } from "../models/LocalizationModel";
 
 export const message = {
-  myTodo: "TODOs",
+  titleText: "TODOs",
   pending: "Pending",
   completed: "Completed",
   title: "Title",
@@ -10,4 +10,4 @@ export const message = {
   description: "Description",
   totalPending: "Pending Todos",
   totalCompleted: "Completed Todos",
-} as ILocalization ;
+} as ILocalization; ;

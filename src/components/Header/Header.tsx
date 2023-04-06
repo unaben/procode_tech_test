@@ -4,7 +4,7 @@ import './Header.css'
 
 
 const Header = () => {
-  return <h1>{message.myTodo}</h1>;
+  return <h1>{message.titleText}</h1>;
 };
 
 export default Header;

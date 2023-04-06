@@ -1,5 +1,5 @@
 export type ILocalization = {
-  myTodo: string;
+  titleText: string;
   pending: string;
   completed: string;
   title: string;
