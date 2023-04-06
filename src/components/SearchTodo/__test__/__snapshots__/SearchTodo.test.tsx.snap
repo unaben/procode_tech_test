@@ -8,7 +8,7 @@ exports[`SearchTodo component should renders correctly 1`] = `
     <input
       id="search-term"
       name="searchTerm"
-      placeholder="Search todos...."
+      placeholder="Search pending todos...."
       type="text"
       value=""
     />
