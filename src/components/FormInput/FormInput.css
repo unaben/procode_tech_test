@@ -40,7 +40,7 @@
 }
 
 .primary-btn:hover {
-  background-color: var(--clr-primary-bg);
+  background-color: var(--clr-hover-color);
 }
 
 @media only screen and (max-width: 768px) {

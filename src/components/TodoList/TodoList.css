@@ -10,7 +10,7 @@
 
 .todo-list-item h3 {
   font-size: 25px;
-  color: rgb(4, 196, 106);
+  color: var(--clr-primary-color);
   font-weight: bold;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .check-icon:hover {
-  color: var(--clr-primary-color);
+  color: var(--clr-hover-color);
 }
 
 @media only screen and (max-width: 768px) {
